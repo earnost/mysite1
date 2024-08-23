@@ -1,0 +1,351 @@
+/* Reset some basic styling */
+/* Body and General Styling */
+body {
+    background-color: #000; /* Black background */
+    color: #e7e5e4; /* Soft beige for text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Dark muted grayish black */
+    color: #e7e5e4; /* Soft beige */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #e7e5e4; /* Soft beige */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d2b48c; /* Tan */
+}
+
+/* Video Portfolio Section */
+.portfolio {
+    padding: 50px 20px;
+    background-color: #000; /* Black background for the section */
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between items */
+}
+
+
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #e7e5e4; /* Soft beige */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d2b48c; /* Tan */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('images/wallpaper\ 1.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e7e5e4; /* Soft beige */
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+.cta-button {
+    background-color: #556b2f; /* Muted forest green */
+    color: #e7e5e4; /* Soft beige */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #4a4e4d; /* Dark muted grayish brown */
+}
+
+/* Footer */
+footer {
+    background-color: #4a4e4d; /* Dark muted grayish brown */
+    color: #e7e5e4; /* Soft beige */
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #e7e5e4; /* Soft beige */
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #d2b48c; /* Tan */
+}
+
+/* Video Portfolio Section */
+.portfolio {
+    padding: 50px 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between items */
+}
+
+.video-item {
+    background-color: #4a4e4d; /* Dark muted grayish brown */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 315px; /* Standard 16:9 aspect ratio */
+    border-radius: 5px;
+}
+
+.video-item p {
+    margin-top: 10px;
+    color: #e7e5e4; /* Soft beige */
+    font-size: 1.1em;
+}
+
+/* Photography Portfolio Section */
+.portfolio {
+    padding: 50px 45px; /* Increase padding to add space on the sides */
+    background-color: #000; /* Black background for the section */
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 40px 20px; /* 20px horizontal gap, 30px vertical gap */
+    margin: 0 auto; /* Center the grid within the section */
+    max-width: 1200px; /* Optional: Limit the width of the grid for a more contained layout */
+}
+
+.photo-item {
+    background-color: #222; /* Slightly lighter black for contrast */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers the photo horizontally */
+    align-items: center; /* Centers the photo vertically */
+    height: 100%; /* Ensure the box takes up the full height of the grid cell */
+    margin-bottom: 10px; /* Additional margin at the bottom for extra spacing */
+}
+
+.photo-item img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    object-fit: contain; /* Ensures the image fits within the container */
+}
+
+
+.photo-item p {
+    margin-top: 10px;
+    color: #d2b48c; /* Tan for photo titles */
+    font-size: 1.1em;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    background-color: #000; /* Black background for the section */
+    color: #e7e5e4; /* Soft beige for text */
+}
+
+.about-content {
+    max-width: 60%;
+    line-height: 1.6;
+}
+
+.about-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #d2b48c; /* Tan for headings */
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-photo img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #e7e5e4; /* Soft beige border */
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content, .about-photo {
+        max-width: 100%;
+    }
+
+    .about-photo {
+        margin-top: 30px;
+    }
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 40px;
+    background-color: #000; /* Black background for the section */
+    color: #e7e5e4; /* Soft beige for text */
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #d2b48c; /* Tan for headings */
+}
+
+.contact-section p {
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #d2b48c; /* Tan for labels */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #d2b48c; /* Tan border */
+    background-color: #333; /* Darker background for input fields */
+    color: #e7e5e4;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    background-color: #d2b48c; /* Tan button */
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #a8906a; /* Darker tan on hover */
+}
+
+/* Hover Effect for Buttons */
+button[type="submit"] {
+    background-color: #d2b48c; /* Tan button */
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #a8906a; /* Darker tan on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Hover Effect for Images */
+.photo-item img {
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.photo-item img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    filter: brightness(80%); /* Darken the image slightly */
+}
+
+/* Animate Elements in View */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+}
